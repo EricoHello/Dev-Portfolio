@@ -125,22 +125,23 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Washington, Bothell",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      logo: require("./assets/images/UWBlogo.png"),
+      subHeader: "Bachelors of Science in Computer Science",
+      duration: "September 2023 - March 2025",
+      desc: "First Generation Graduate - Participated in the research of Robotics Club and published 3 projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Learn2Code a Web-Based Coding Study Platform.",
+        "Faculty Connect a Web-Based Faculty Availability Monitor.",
+        "APLAS an AI-powered Learning Assistant System."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "Bellevue College",
+      logo: require("./assets/images/BClogo.png"),
+      subHeader: "Associate of Arts and Sciences",
+      duration: "September 2021 - August 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: ["Volunteered as a Note Taker at Disability Center.", "Participated in the Robotics Club."]
     }
   ]
 };
@@ -156,11 +157,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -172,29 +173,44 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "IT Technician",
+      company: "Kaiser Permanente",
+      companylogo: require("./assets/images/KPlogo.png"),
+      date: "March 2025 – Present",
+      desc: "Replaced and deployed over 300+ end-user devices across multiple hospital departments, ensuring zero data loss and minimal workflow disruption.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Configured and imaged laptops/desktops using Microsoft SCCM and Active Directory; reduced setup time by 35%.",
+        "Created and used custom scripts in PowerShell to automate routine cleanup tasks, cutting manual work by 2 hours per device."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Intern",
+      company: "Summit Transportation",
+      companylogo: require("./assets/images/SummitTlogo.png"),
+      date: "May 2024 – Feb 2025",
+      desc: "Built a Python script that parses fuel logs and matches them with GPS routes to detect anomalies, reducing fraud by 10%.",
+      descBullets: [
+        "Developed a web-based load scheduling dashboard using React and Firebase, improving dispatcher visibility.",
+        "Automated rate sheet uploads to the TMS via REST API, reducing manual entry by 80%."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Advance Repair Agent",
+      company: "Geek Squad @Best Buy",
+      companylogo: require("./assets/images/GSlogo.png"),
+      date: "Sep 2022 – May 2024",
+      desc: "Diagnosed and repaired of over 10,000 of computers and mobile devices.",       
+      descBullets: [
+        "Achieved a 4.7/5 customer satisfaction rating, surpassing the company goal of 4.6.",
+        "Onboarded and mentored dozens of new team members, accelerating their proficiency."
+      ]
+    },
+    {
+      role: "Lifeguard",
+      company: "Renton City",
+      companylogo: require("./assets/images/RentonLogo.png"),
+      date: "May 2021 – Aug 2022",
+      desc: "Monitored pool and beach areas to ensure safety of guests, responding to emergencies with CPR and first aid as trained."
     }
   ]
 };
@@ -215,24 +231,24 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      projectName: "Mobile App Coming Soon",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: ""
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Learn2Code.png"),
+      projectName: "Learn2Code",
+      projectDesc: "It’s a lightweight web app built with React and Node.js that helps beginners practice coding concepts.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit GitHub",
+          url: "https://github.com/EricoHello/Team5"
         }
       ]
     }
@@ -250,53 +266,35 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "CompTIA A+",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "CompTIA A+ is the industry standard for establishing a career in IT.",
+      image: require("./assets/images/comptiaLogo.png"),
+      imageAlt: "CompTIA A+ Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Certification Coming Soon",
+          url: ""
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Award Letter Coming Soon",
+          url: ""
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Google AI Essential",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Google AI Essentials is a course that teaches the fundamentals of AI and machine learning.",
+      image: require("./assets/images/googleAI.jpeg"),
+      imageAlt: "Google AI Essentials Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification Cooming Soon",
+          url: ""
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -310,19 +308,13 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -341,7 +333,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -354,7 +346,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -370,18 +362,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+425-503-1987",
+  email_address: "samitoveric24@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
