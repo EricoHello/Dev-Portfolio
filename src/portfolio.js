@@ -141,7 +141,10 @@ const educationInfo = {
       subHeader: "Associate of Arts and Sciences",
       duration: "September 2021 - August 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Volunteered as a Note Taker at Disability Center.", "Participated in the Robotics Club."]
+      descBullets: [
+        "Volunteered as a Note Taker at Disability Center.",
+        "Participated in the Robotics Club."
+      ]
     }
   ]
 };
@@ -199,7 +202,7 @@ const workExperiences = {
       company: "Geek Squad @Best Buy",
       companylogo: require("./assets/images/GSlogo.png"),
       date: "Sep 2022 – May 2024",
-      desc: "Diagnosed and repaired of over 10,000 of computers and mobile devices.",       
+      desc: "Diagnosed and repaired of over 10,000 of computers and mobile devices.",
       descBullets: [
         "Achieved a 4.7/5 customer satisfaction rating, surpassing the company goal of 4.6.",
         "Onboarded and mentored dozens of new team members, accelerating their proficiency."
@@ -244,7 +247,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Learn2Code.png"),
       projectName: "Learn2Code",
-      projectDesc: "It’s a lightweight web app built with React and Node.js that helps beginners practice coding concepts.",
+      projectDesc:
+        "It’s a lightweight web app built with React and Node.js that helps beginners practice coding concepts.",
       footerLink: [
         {
           name: "Visit GitHub",
@@ -294,7 +298,7 @@ const achievementSection = {
           url: ""
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
